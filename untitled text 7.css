@@ -1,0 +1,22 @@
+body { 
+font-family: "Secret typewriter"; color:white;font-size:25px;
+ }
+ 
+ #footer{
+padding-top:150px;
+clear:left;
+width:100%
+}
+
+
+ <div id="footer">
+    <p><center>by SashaNovikova 2013</center></p>
+  </div>
+  
+  
+  
+  
+img{
+padding-left:80px;
+padding-right:30px;
+}

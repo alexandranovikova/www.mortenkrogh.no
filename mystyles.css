@@ -1,0 +1,81 @@
+
+
+#logo {
+	float: left;
+	height: 100px;
+	width: 300px;
+	font-size: 10px;
+	position: relative;
+}
+
+#meny {
+	height: auto;
+	width: 200px;
+	margin-top: 50px;
+	font-family: "Letter Gothic Std Bold";
+	font-size: 16px;
+	font-style: normal;
+	line-height: 80%;
+	font-weight: lighter;
+	font-variant: small-caps;
+	color: #FFF;
+	/*opacity:0.6; */
+	text-decoration: none;
+	letter-spacing: 5%;
+	text-align: center;
+	word-spacing: 20px;
+	position: static;
+	clear: none;
+	float: left;	
+}
+
+#boxWithPictures {
+	width: 70%;
+	margin-top: 50px;
+	clear: none;
+	float: left;
+	color: #FFF;
+	position: relative;
+	border: 10px solid #000;
+	background: #000000;
+	background-image: none;
+	margin-left: 50px;
+}
+
+#footer {
+	height: 50px;
+	left: 10px;
+	top: 500px;
+	right: 10px;
+	bottom: 50px;
+	clear: both;
+	color: #FFF;
+	text-align: center;
+	position: relative;
+}
+
+body {
+	background-image: url(MKbackground.jpg);
+	background-size: 100%;
+	opacity: 60%;
+	background-repeat: y;
+}
+
+#pictures {
+	background-color: #000000;
+	background-image: none;
+	position: relative;
+	
+}
+
+.image_container {
+	width:32.3333333%;
+	float:left;
+	padding: 0px;
+}
+
+.image_container img {
+	margin:0px;
+	border: 15px solid #000;
+}
+

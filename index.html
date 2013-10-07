@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Photographer Morten Krogh</title>
+	<script src="jquery-1.10.2.min.js"></script>
+	<script>
+
+
+    function startSlideshow() {
+		setInterval(function() { 
+			$('#slideshow > div:first')
+			.fadeOut(1000)
+			.next()
+			.fadeIn(1000)
+			.end()
+			.appendTo('#slideshow');
+		},  3000);    	
+    }
+
+	$(document).ready(function(){ 
+
+		$("#slideshow > div:gt(0)").hide();
+		startSlideshow();
+
+	});
+
+	</script>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link href="layouts/first_page_style.css" rel="stylesheet" type=
+	"text/css" />
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<a href="index.html"><img align="left" alt="logo_Morten_Krogh"
+			height="30" src="logo_MK.png" /></a>
+		</div>
+
+		<div id="leftcolumn">
+			<p class="big"><a href="about_Morten_Krogh.html">about</a><br />
+			<a href="gallery_start.html">gallery</a><br />
+			<a href="clients.html">clients</a><br />
+			<a href="contact.html">contact</a><br /></p>
+		</div>
+
+		<div id="rightcolumn">
+			<div id="slideshow">
+				<div><img height="330" src=
+				"images/kjendiser/lightbox_kjendiser/HerodesFalsk_1.jpg" width=
+				"495" /></div>
+
+				<div><img height="330" src=
+				"images/livsstil/livsstil_lightbox/9-mnd_1.jpg" width=
+				"495" /></div>
+
+				<div><img height="330" src=
+				"images/livsstil/livsstil_lightbox/Drink_1.jpg" width=
+				"495" /></div>
+
+				<div><img height="330" src=
+				"images/livsstil/livsstil_lightbox/ost_1.jpg" width=
+				"495" /></div>
+
+				<div><img height="330" src=
+				"images/kjendiser/lightbox_kjendiser/LivUlmann_1.jpg" width=
+				"495" /></div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<p>website by Alexandra Novikova (2013)</p>
+		</div>
+	</div>
+</body>
+</html>
